@@ -8,7 +8,7 @@ SCREEN_HEIGHT = 600
 SCREEN_WIDTH = 800
 # Set up the drawing window
 # set_mode(size=(0, 0), flags=0, depth=0, display=0, vsync=0)
-screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # set the icon of the window
 pygame.display.set_icon(pygame.image.load('./resources/block.jpg'))
