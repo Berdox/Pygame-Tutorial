@@ -22,7 +22,7 @@ install a package
 Windows
 python -m pip install pygame
 
-if meta data erro use
+if meta data error use
 pip install pygame --pre
 
 # macOS
