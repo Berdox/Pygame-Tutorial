@@ -22,6 +22,9 @@ install a package
 Windows
 python -m pip install pygame
 
+if meta data erro use
+pip install pygame --pre
+
 # macOS
 python3 -m pip install pygame
 

@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ckdho\OneDrive\Documents\Code\python\Pygame-Tutorial\.venv"
+VIRTUAL_ENV="D:\Code\python\Pygame-Tutorial\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

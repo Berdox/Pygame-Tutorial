@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\ckdho\OneDrive\Documents\Code\python\Pygame-Tutorial\.venv
+set VIRTUAL_ENV=D:\Code\python\Pygame-Tutorial\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
