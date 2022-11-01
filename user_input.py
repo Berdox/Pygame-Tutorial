@@ -43,10 +43,11 @@ def drawing():
     # surface.blit(location, x, y)
     screen.blit(block.location, (block.x, block.y))
 
-
+# Frame rate of game
 FPS = 60
 clock = pygame.time.Clock()
 blockMovement = 30
+
 # Used for our game loop
 running = True
 
