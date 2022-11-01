@@ -1,0 +1,11 @@
+Windows
+py -3 -m venv .venv
+
+May need to run
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+.venv\scripts\activate
+
+Mac/linux
+python3 -m venv .venv
+source .venv/bin/activate
