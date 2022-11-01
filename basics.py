@@ -26,7 +26,6 @@ while running:
     for event in pygame.event.get():
 
         if event.type == pygame.QUIT:
-
             running = False
 
     # Used to fill the background with a color based on RGB
