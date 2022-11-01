@@ -1,12 +1,12 @@
 Setting up a virtual environment
 
 Windows
-py -3 -m venv .venv // makes virtual environment
+py -3 -m venv .venv                                               // makes virtual environment
 
 May need to run
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
-.venv\scripts\activate // activates virtual environment
+.venv\scripts\activate                                            // activates virtual environment
 
 Mac/linux
 python3 -m venv .venv // makes virtual environment
