@@ -1,5 +1,9 @@
 import pygame
 
+def resize(img, factor):
+    size = round(img.get_width() * factor), round(img.get_height() * factor)
+    return pygame.transform.scale(img, size)
+
 def find_collision_window(item, width, height):
     rect = item.location.get_rect()
     rect.x = item.x
