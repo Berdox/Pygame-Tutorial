@@ -1,11 +1,30 @@
+Setting up a virtual environment
+
 Windows
-py -3 -m venv .venv
+py -3 -m venv .venv // makes virtual environment
 
 May need to run
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
-.venv\scripts\activate
+.venv\scripts\activate // activates virtual environment
 
 Mac/linux
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv .venv // makes virtual environment
+source .venv/bin/activate // activates virtual environment
+
+
+may need to change python interpreter to the one in the venv
+
+
+
+install a package
+
+Windows
+python -m pip install pygame
+
+# macOS
+python3 -m pip install pygame
+
+# Linux (Debian)
+apt-get install python3-tk
+python3 -m pip install pygame
